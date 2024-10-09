@@ -1,0 +1,164 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background-color: #ff7aac;
+    color: #4d4c5c;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    color: #4d4c5c;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #4d4c5c;
+    text-decoration: none;
+}
+
+.header-actions {
+    display: flex;
+}
+
+.btn {
+    background-color: #ff7aac;
+    color: #4d4c5c;
+    border: #4d4c5c e;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #007bbd;
+}
+
+/* Hero Section */
+.hero {
+    margin-top: -22px;
+    background-color: #f0f0f0;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.hero .search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.search-bar .search-btn {
+    padding: 10px 20px;
+}
+
+/* Tutors Section */
+.tutors {
+    padding: 60px 0;
+}
+
+.tutors h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tutors-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tutor-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.tutor-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.tutor-card h4 {
+    margin-top: 10px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-links ul li {
+    margin: 0 20px;
+}
+
+footer .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    padding: 1px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
